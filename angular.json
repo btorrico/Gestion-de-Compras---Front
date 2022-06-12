@@ -27,7 +27,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/elegant-icons.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/jquery-ui.min.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/owl.carousel.min.css",
+              "src/assets/css/slicknav.min.css",
+              "src/assets/css/style.css"
             ],
             "scripts": []
           },
@@ -101,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "98caa302-fac2-4d12-ba80-1b0e3e8375ac"
   }
 }
