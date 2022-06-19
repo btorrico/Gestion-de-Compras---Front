@@ -28,16 +28,19 @@
             ],
             "styles": [
               "src/styles.css",
+              "src/assets/css/style-main.css",
               "src/assets/css/bootstrap.min.css",
               "src/assets/css/elegant-icons.css",
               "src/assets/css/font-awesome.min.css",
               "src/assets/css/jquery-ui.min.css",
               "src/assets/css/nice-select.css",
               "src/assets/css/owl.carousel.min.css",
-              "src/assets/css/slicknav.min.css",
-              "src/assets/css/style.css"
+              "src/assets/css/slicknav.min.css"
+
+
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {

@@ -66,7 +66,7 @@
                     <div class="header__top__right">
 
                         <div class="header__top__right__auth">
-                            <a href="./login.html"><i class="fa fa-user"></i>INGRESÁ O REGISTRATE</a>
+                            <a [routerLink]="['login-page']"><i class="fa fa-user"></i>INGRESÁ O REGISTRATE</a>
 
                         </div>
 
@@ -85,9 +85,9 @@
                         <nav class="header__menu">
                             <ul>
                                 <li class="active"><a href="./index.html">Inicio</a></li>
-                                <li><a href="./shop-grid.html">Productos</a></li>
-                                <li><a href="./blog.html">Nosotros</a></li>
-                                <li><a href="./contact.html">Contacto</a></li>
+                                <li><a [routerLink]="['/shop-grid']"  >Productos</a></li>
+                                <li><a [routerLink]="['/our']">Nosotros</a></li>
+                                <li><a [routerLink]="['/contact']">Contacto</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -95,7 +95,7 @@
                         <div class="header__cart">
                             <ul>
                                 <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                                <li><a href="./shoping-cart.html"><i class="fa fa-shopping-bag"></i>
+                                <li><a [routerLink]="['/shopping-cart']"><i class="fa fa-shopping-bag"></i>
                                         <span>3</span></a></li>
                             </ul>
                             <div class="header__cart__price">item: <span>$150.00</span></div>
