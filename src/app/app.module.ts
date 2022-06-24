@@ -13,6 +13,7 @@ import { LoginPageComponent } from './login/login-page/login-page.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { VendedorModule } from './vendedor/vendedor.module';
+import { SesionComponent } from './sesion/sesion.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { VendedorModule } from './vendedor/vendedor.module';
     OurComponent,
     ContactComponent,
     ShoppingCartComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    SesionComponent
   ],
   imports:
     [
